@@ -1,0 +1,39 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9e6; /* Light yellow background color */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.blog-post {
+    margin-bottom: 40px;
+    text-align: center; /* Center-align the content within the blog post */
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Center-align the image within its container */
+    margin: 0 auto; /* Center-align the image horizontally */
+}
