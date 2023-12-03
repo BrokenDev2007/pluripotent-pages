@@ -57,6 +57,17 @@ footer {
 
 }
 
+
+/* Logo Container Styles */
+.logo-container {
+  text-align: center;
+  padding: 0px 0;
+}
+
+.logo-container img {
+  max-width: 100px;
+}
+
 /* Responsive design for mobile devices */
 @media only screen and (max-width: 600px) {
     body {
