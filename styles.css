@@ -28,7 +28,7 @@ footer {
 
 .blog-post {
     margin-bottom: 40px;
-    text-align: center; /* Center-align the content within the blog post */
+    text-align: justify; /* Center-align the content within the blog post */
 }
 
 .blog-post img {
