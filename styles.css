@@ -25,6 +25,8 @@ footer {
     width: 100%;
 }
 
+
+
 .blog-post {
     margin-bottom: 40px;
     text-align: justify; /* Center-align the content within the blog post */
@@ -37,6 +39,22 @@ footer {
     height: auto;
     display: block; /* Center-align the image within its container */
     margin: 0 auto; /* Center-align the image horizontally */
+}
+
+.blog-post .formula {
+  width: 200px; /* Set a standard width for the images */
+  height: 100px; /* Set a standard height for the images */
+  padding-top: 40px;
+  display: block; /* Center-align the image within its container */
+  
+}
+
+.blog-post .formula-long {
+  width: 300px; /* Set a standard width for the images */
+  height: 200px; /* Set a standard height for the images */
+  padding-top: 20px;
+  display: block; /* Center-align the image within its container */
+
 }
 
 /* Responsive design for mobile devices */
