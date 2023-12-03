@@ -21,7 +21,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -32,8 +31,21 @@ footer {
 }
 
 .blog-post img {
+    width: 600px; /* Set a standard width for the images */
+    height: 400px; /* Set a standard height for the images */
     max-width: 100%;
     height: auto;
     display: block; /* Center-align the image within its container */
     margin: 0 auto; /* Center-align the image horizontally */
+}
+
+/* Responsive design for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px; /* Adjust the font size for smaller screens */
+    }
+
+    .blog-post img {
+        width: 100%; /* Make images take up 100% of the container width on smaller screens */
+    }
 }
